@@ -1,12 +1,25 @@
 # ClausDiller
 Бот для создания экономики в Telegram 
-# Установка
+## Установка зависимостей
+``
+## Установка
+Указать токен в main.py
+```(python)
+updater = Updater("TOKEN", use_context=True)
+    
+```
+## Запуск 
+```(python)
+python3 main.py
+```
 Указать данные в файле handlers.py:
 ID для администратора чтобы использовать команды админа
 ```(python)
 ADMIN_ID = "123"
 ```
-# Магазин
+
+
+## Магазин
 Обычный масив Python
 
 ```(python)
@@ -19,7 +32,7 @@ shop_items = {
     "VIP":1000
 }
 ```
-# Размер инвентаря
+## Размер инвентаря
 ```(python)
 MAX_INVENTORY_SIZE = 5
 ```
