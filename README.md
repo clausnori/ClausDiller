@@ -1,7 +1,9 @@
 # ClausDiller
 Бот для создания экономики в Telegram 
 ## Установка зависимостей
-``
+```
+pip install -r requirements.txt
+```
 ## Установка
 Указать токен в main.py
 ```(python)
@@ -36,4 +38,10 @@ shop_items = {
 ```(python)
 MAX_INVENTORY_SIZE = 5
 ```
+# Админ команды
+```
+/send - Отправить сообщение всем участникам
 
+/delete_item <item> <nickname> - Удалить предмет у человека
+/send_all <number> - Отправить всем некоторое количество монет
+```
